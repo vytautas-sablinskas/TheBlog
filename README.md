@@ -1,6 +1,6 @@
 # TheBlog
 
-Welcome to TheBlog, a dynamic blogging platform where users can write articles, post comments, and engage with content through ratings. Built on .NET 7, this application offers a sleek user interface with React and robust back-end capabilities using Entity Framework Core and a RESTful API.
+Welcome to TheBlog, a dynamic blogging platform where users can write articles, post comments, and engage with content through ratings.
 
 ## Features
 
