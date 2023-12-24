@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "ts-loader": "^9.5.0"
+  }
+}
