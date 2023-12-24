@@ -15,7 +15,7 @@ Welcome to TheBlog, a dynamic blogging platform where users can write articles, 
 
 ## Project Structure
 
-- **TheBlog.MVC**: The heart of the application, containing all primary logic. It integrates React within its MVC architecture for front-end interactivity, with JavaScript enabling dynamic content handling. All pages are rendered using MVC controllers, emphasizing the use of MVC patterns over API calls for the main logic and navigation.
+- **TheBlog.MVC**: The heart of the application, containing all primary logic. It integrates React within its MVC architecture for front-end interactivity, with JavaScript enabling dynamic content handling. Starting page is rendered by MVC app and then React takes over navigation and logic of front end.
 - **TheBlog.Data**: This component houses extensive files shared between the API and MVC application. The API, featuring JWT authentication, is primarily designed for training purposes, demonstrating robust API implementation. It manages articles and related data but does not drive the main application logic.
 - **THeBlog.API**: This component is remake of Articles controller with authentication using JWT tokens.
 - **TheBlog.UnitTests**: This component has unit tests for main logic of the application using Moq framework.
